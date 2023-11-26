@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
 @charset "UTF-8";
 
@@ -163,6 +163,7 @@ img {
 .cards {
     padding: 100px 0;
     background-color: aliceblue;
+
 }
 
 .cards-content {
@@ -179,6 +180,7 @@ img {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     background-color: aliceblue;
     border-radius: 15px;
+	
 }
 
 .card-text {
@@ -378,4 +380,33 @@ img {
         text-align: center;
     }
     
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+box-shadow: 3px 12px 43px -7px rgba(0,0,0,0.53);
+-webkit-box-shadow: 3px 12px 43px -7px rgba(0,0,0,0.53);
+-moz-box-shadow: 3px 12px 43px -7px rgba(0,0,0,0.53);
+ 
+border-radius: 20px;
+margin: 30px;
+
+
+}
+
+.product img { 
+ 
+border-radius: 20px;
+
+max-height: 399px;
+    object-fit: cover;
+
+}
+.products {
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
 }
