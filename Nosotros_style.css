@@ -47,7 +47,7 @@ img {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1321px;
     margin: 0 auto;
 }
 
@@ -166,7 +166,7 @@ img {
 }
 .cards {
     padding: 100px 0;
-    background-color: aliceblue;
+    background-color: white;
     text-align: center;
 }
 
@@ -178,15 +178,17 @@ img {
     margin-top: 72px;
 }
 .card {
-    flex: 0 0 calc(33.3% - 20px);
+    flex: 0 0 calc(33.3% - 10px);
     display: flex;
     margin-bottom: 25px;
     padding: 25px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    background-color: aliceblue;
+    background-color: #ffcc00;
     border-radius: 15px;
     text-align: center;
     border-top: 10px #ffcc00 solid;
+    margin: 22px;
+    max-width: 392px;
 }
 .card1 {
     flex: 0 0 calc(33.3% - 20px);
@@ -195,11 +197,12 @@ img {
     margin-bottom: 25px;
     padding: 25px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    background-color: aliceblue;
+    background-color: #ffcc00;
     border-radius: 15px;
     text-align: center;
     border-top: 10px #ffcc00 solid;
     width: 90%;
+    margin-bottom: 85px
 }
 .card-text {
     width: 100%;
@@ -208,14 +211,14 @@ img {
 
 
 .card-text h3 {
-    font-size: 18px;
+    font-size: 24px;
     margin-bottom: 10px;
-    color: #e80000;
+    color: #c20404;
 }
 
 .card-text p {
-    font-size: 15px;
-    color: #1D1D1B;
+    font-size: 20px;
+    color: #222222;
 }
 
 .card-img {
@@ -418,4 +421,8 @@ img {
 
 p{
     text-align: center;
+}
+h2{
+    color: #1f1f1c;
+    font-size: 40px;
 }
